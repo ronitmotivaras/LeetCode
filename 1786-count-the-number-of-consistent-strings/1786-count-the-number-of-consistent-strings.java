@@ -18,12 +18,14 @@ class Solution {
                     if(temp==s[k])
                     {
                         flag=true;
+                        break;
                     }
                 }
 
                 if(flag==false)
                 {
                     flag1=true;
+                    break;
                 }
                 
             }
